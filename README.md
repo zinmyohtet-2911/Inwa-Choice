@@ -1,16 +1,45 @@
-# React + Vite
+# 📱 Inwa Choice — Device Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive React app to browse **Mobile Phones, Tablets, and Laptops** in one place, with a built-in filter to quickly find the device type you need.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 📋 Browse phones, tablets, and laptops in a clean card layout
+- 🔍 Filter devices by type (Phone / Tablet / Laptop)
+- ⚡ Instant filtering — no page reload
+- 📱 Fully responsive (desktop, tablet, mobile)
+- 🎨 Modern UI with hover effects and smooth transitions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- [React](https://react.dev/) — UI library
+- [Vite](https://vitejs.dev/) — Build tool (or Create React App)
+- CSS Grid & Flexbox — Layout
+- JavaScript (ES6+) — Filter logic with `.filter()` and `.map()`
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** (v16 or higher) and **npm** installed.
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/inwa-choice.git
+
+# Go into the project folder
+cd inwa-choice
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
